@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    color: blue
+    color: #0d6efd;
 }
 
 p {
@@ -31,6 +31,7 @@ header {
 .main-page {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 .article-container {
@@ -50,10 +51,11 @@ header {
 
 .left-menu {
     /*flex-grow: 1;*/
-    flex-basis: 50%; /* ?? */
+    flex-basis: 20%; /* ?? */
     background-color: #f8f9fa;
     border-radius: 0.5rem;
     padding: 0.625rem;
+    margin: 0.625rem;
 }
 
 .left-menu > h3 {
