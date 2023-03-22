@@ -34,10 +34,18 @@ header {
     align-items: flex-start;
 }
 
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .main-page {
+        flex-direction: column;
+    }
+}
+
 .article-container {
-    /*flex-grow: 2;*/
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 300px 300px;
+    /*grid-template-columns: repeat(2, minmax(20rem, 1fr));*/
+    grid-gap: 1rem;
 }
 
 .article-item {
@@ -47,15 +55,26 @@ header {
     border-radius: 0.5rem;
     margin: 20px;
     padding: 10px;
+    flex-basis: 100px;
+}
+
+.article-item > img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-item > p {
+    text-align: justify;
 }
 
 .left-menu {
-    /*flex-grow: 1;*/
-    flex-basis: 20%; /* ?? */
     background-color: #f8f9fa;
     border-radius: 0.5rem;
     padding: 0.625rem;
     margin: 0.625rem;
+    min-width: 200px;
 }
 
 .left-menu > h3 {
