@@ -9,11 +9,11 @@ body {
 }
 
 h1 {
-    color: #0d6efd;
+    color: #0e5cd0;
 }
 
 h6 {
-    color: #6c757d;
+    color: #656e76;
     margin: 0;
     text-align: right;
 }
@@ -25,7 +25,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #6ea8fe;
+    color: #629bef;
 }
 
 /*
@@ -55,7 +55,7 @@ header {
     }
 }
 
-.top-menu > li {
+.top-menu li {
     margin: 0 0.625rem;
 }
 
@@ -89,7 +89,7 @@ header {
     justify-content: space-between;
     border-style: solid;
     border-width: 1px;
-    border-color: #e9ecef;
+    border-color: #eff3f6;
     border-radius: 0.5rem;
     margin: 20px;
     padding: 10px;
@@ -98,21 +98,21 @@ header {
 .article-item {
     border-style: solid;
     border-width: 1px;
-    border-color: #e9ecef;
+    border-color: #eff3f6;
     border-radius: 0.5rem;
     margin: 20px;
     padding: 10px;
     flex-basis: 100px;
 }
 
-.article-item > img {
+.article-item img {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.article-single>img {
+.article-single img {
     width: 80%;
     display: block;
     margin-left: auto;
@@ -120,23 +120,23 @@ header {
     max-width: 800px;
 }
 
-.article-item > p {
+.article-item p {
     text-align: justify;
 }
 
-.article-single > p {
+.article-single p {
     text-align: justify;
 }
 
 .left-menu {
-    background-color: #f8f9fa;
+    background-color: #eff3f6;
     border-radius: 0.5rem;
     padding: 0.625rem;
     margin: 0.625rem;
     min-width: 200px;
 }
 
-.left-menu > h3 {
+.left-menu h3 {
     font-style: italic;
 }
 
@@ -158,7 +158,7 @@ li {
 */
 
 footer {
-    background-color: #212529;
+    background-color: #1a1d20;
     color: white;
     text-align: center;
     padding: 0.875rem;
