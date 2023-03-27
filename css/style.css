@@ -1,3 +1,7 @@
+/*
+* General CSS 
+*/
+
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
@@ -24,6 +28,10 @@ a {
     color: #6ea8fe;
 }
 
+/*
+* Header CSS
+*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -41,14 +49,14 @@ header {
     display: flex;
 }
 
-.top-menu > li {
-    margin: 0 0.625rem;
-}
-
 @media (max-width: 800px) {
     .top-menu {
         flex-direction: column;
     }
+}
+
+.top-menu > li {
+    margin: 0 0.625rem;
 }
 
 .main-page {
@@ -57,16 +65,14 @@ header {
     align-items: flex-start;
 }
 
-@media (max-width: 800px) {
-    .main-page {
-        align-items: center;
-    }
-}
+/*
+* Main CSS
+*/
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     .main-page {
         flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -146,6 +152,10 @@ li {
 .go-to-article {
     text-align: right;
 }
+
+/*
+* Footer CSS
+*/
 
 footer {
     background-color: #212529;
