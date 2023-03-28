@@ -3,6 +3,9 @@
 */
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     background-color: #1a1d20;
     color: white;
     text-align: center;

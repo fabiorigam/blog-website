@@ -15,16 +15,16 @@ header {
     }
 }
 
-.top-menu {
+.navbar {
     display: flex;
 }
 
 @media (max-width: 800px) {
-    .top-menu {
+    .navbar {
         flex-direction: column;
     }
 }
 
-.top-menu li {
+.navbar li {
     margin: 0 0.625rem;
 }
