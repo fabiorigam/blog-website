@@ -2,19 +2,6 @@
 * Main page CSS
 */
 
-.main-page {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-@media (max-width: 800px) {
-    .main-page {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 .article-container {
     display: grid;
     justify-content: center;
