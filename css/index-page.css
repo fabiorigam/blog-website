@@ -34,7 +34,7 @@
     padding: 10px;
 }
 
-.article-item {
+article {
     border-style: solid;
     border-width: 1px;
     border-color: #eff3f6;
@@ -44,7 +44,7 @@
     flex-basis: 100px;
 }
 
-.article-item img {
+article img {
     width: 100%;
     display: block;
     margin-left: auto;
