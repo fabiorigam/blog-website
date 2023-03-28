@@ -34,3 +34,8 @@ blockquote {
     margin-left: 0;
     font-style: italic;
 }
+
+figcaption {
+    font-size: 0.75rem;
+    text-align: center;
+}
