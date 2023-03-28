@@ -52,3 +52,12 @@ section {
         align-items: center;
     }
 }
+
+ul {
+    list-style-type: none;
+    padding: 0.25rem;
+}
+
+li {
+    padding: 0.25rem;
+}
